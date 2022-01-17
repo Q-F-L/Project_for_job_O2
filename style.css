@@ -1,0 +1,348 @@
+* {
+	font-family: 'Roboto';
+	font-weight: normal;
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+	color: #1C294D;
+}
+
+.main {
+	margin: 0 auto;
+	width: 1366px;
+	height: fit-content;
+	background-color: #F9F9FA;
+	padding-top: 29px;
+	padding-bottom: 31px;
+}
+
+.title {
+	margin: 0 auto;
+	width: 1140px;
+	height: 30px;
+	color: #2A3D48;
+
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 30px;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+
+}
+
+/*  SAIT BAR  */
+
+.sait_bar {
+	width: 320px;
+	height: 441px;
+	background-color: #fff;
+	border-radius: 5px;
+	padding-top: 20px;
+	margin-right: 30px;
+	padding: 20px 20px 0px 20px;
+}
+
+.user_short {
+	display: flex;
+	width: 320px;
+	height: 59px;
+	background-color: #F9F9FA;
+	border-radius: 5px;
+	margin: auto;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.ellipse {
+	width: 40px;
+	height: 40px;
+	background-color: white;
+	position: relative;
+	margin-left: 11px;
+	border-radius: 50%;
+	margin-bottom: 1px;
+}
+
+.ellipse img {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	width: 21px;
+	height: 21px;
+}
+
+.user_description {
+	display: flex;
+	color: #1C294D;
+	flex-direction: column;
+	margin-left: 10px;
+}
+
+.user_name {
+	font-size: 16px;
+}
+
+.user_type {
+	color: #1C294D80;
+	font-size: 14px;
+	margin-top: 3px;
+	margin-bottom: 4px;
+}
+
+.sait_bar_menu {
+	margin-top: 15px;
+}
+
+.sait_bar_menu li {
+	height: 60px;
+	list-style: none;
+	color: #1C294D;
+	border-radius: 2px;
+	border-top: 1px solid rgba(42, 61, 72, 0.15);
+	font-size: 14px;
+	position: relative;
+	display: flex;
+	cursor: pointer;
+	align-items: center;
+}
+
+.sait_bar_menu li:last-child {
+	color: #FF3347;
+	margin-bottom: 0;
+}
+
+.sait_bar_menu .sait_bar_menu_active_button{
+	color: #FC6E1D;
+}
+
+.sait_bar_menu_active_button::after {
+	color: #FC6E1D;
+	position: absolute;
+	left: -20px;
+	top: -1px;
+	color: red;
+	border-left: 5px solid #FC6E1D;
+	content: " ";
+	height: 60px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+
+/*  FORM  */
+
+form{
+	margin-top: 12px;
+	width: 420px;
+	padding-top: 20px;
+
+}
+
+.form {
+	background-color: white;
+	width: 660px;
+	height: 812px;
+	padding: 45px;
+	border-radius: 5px;
+	padding-top: 44px;
+	padding-bottom: 52px;
+}
+
+.form_title {
+	height: 25px;
+	width: 630px;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 19px;
+}
+
+.form_menu {
+	display: flex;
+	margin-top: 19px;
+	background-color: #F6F6F6;
+	padding: 3px;
+	border-radius: 5px;
+}
+
+.nav_element {
+	padding: 13px 15.7px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: #55646D;
+	padding-bottom: 15px;
+}
+
+.nav_element:last-child {
+	padding-left: 14px;
+}
+
+.form_menu_active_button {
+	background-color: white;
+	font-style: normal;
+	font-weight: 500;
+}
+
+label {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	color: #959EA4;
+}
+
+label span{
+	color: red;
+}
+
+.container_flex_column{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 17px;
+}
+
+input {
+	height: 48px;
+    border-radius: 5px;
+    border: 1px solid #DFE2E4;
+    padding-left: 14px;
+    margin-top: 7px;
+    font-size: 14px;
+	width: 404px;
+
+}
+
+.input_check{
+	position: relative;
+}
+
+.checker{
+	position: absolute;
+	top: 27px;
+	right: 18px;
+}
+
+.form_short input{
+	width: 189px;
+}
+
+.form_short{
+	width: 205px;
+}
+
+.container_flex{
+	display: flex;
+	justify-content: space-between;
+}
+
+.flex_grow{
+ display: flex;
+ margin-top: 7px;
+}
+
+.select_birthday{
+	border: 1px solid #DFE2E4;
+	border-radius: 5px;
+	margin-right: 10px;
+	flex-basis: 118px;
+	height: 48px;
+	position: relative;
+}
+
+.select_birthday span{
+	position: absolute;
+	font-family: "Roboto";
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+	top: 14px;
+	left: 14px;
+}
+
+.select_birthday img{
+	position: absolute;
+	right: 18px;
+	top: 20px;
+}
+
+.select_birthday:last-child{
+	margin-right: 0;
+}
+
+.grow{
+	flex-grow: 1;
+}
+
+.container_sex_active{
+	border: 1px solid #FF7A00;
+	border-radius: 5px;
+	margin-right: 10px;
+	flex-basis: 88px;
+	height: 48px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 18.15px;
+	padding-right: 22px;
+}
+
+.container_sex_active ._sex{
+	color: #FF7A00;
+	font-weight: 500;
+}
+
+.container_sex{
+	border: 1px solid #DFE2E4;
+	border-radius: 5px;
+	margin-right: 10px;
+	flex-basis: 86px;
+	height: 48px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 20px;
+	padding-right: 22px;
+}
+
+._sex{
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+._sex_img{
+	width: 14px;
+}
+
+.container_sex:last-child{
+	margin-right: 0;
+}
+
+.form_submit_btn{
+	margin-top: 13px;
+	color: white;
+	border: none;
+	padding: 15px 62px;
+	background-color: #FF7A00;
+	border-radius: 5px;
+
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+}
