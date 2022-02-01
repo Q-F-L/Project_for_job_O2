@@ -40,11 +40,11 @@
 					<div class="nav_element">Пароль</div>
 				</div>
 
-				<form class="_form" action="">
+				<form class="_form">
 					<div class="container_flex_column">
 						<label for="email">E-mail <span>*</span></label>
 						<div class="input_check">
-							<input value="mingalyovuxcheck@gmail.com" class="full_input _input-val _email" type="email" required
+							<input maxlength="100" value="mingalyovuxcheck@gmail.com" class="full_input _input-val _email" type="email" required
 								name="email">
 							<img class="checker" src="accets/checker.svg">
 						</div>
@@ -54,7 +54,7 @@
 						<div class="container_flex_column form_short">
 							<label for="phone">Номер телефона <span>*</span></label>
 							<div class="input_check">
-								<input value="+79108322628" class="full_input _input-val" type="text" required name="phone">
+								<input maxlength="14" value="+79108322628" class="full_input _input-val" type="text" required name="phone">
 								<img class="checker" src="accets/checker.svg">
 							</div>
 						</div>
@@ -62,7 +62,7 @@
 						<div class="container_flex_column form_short">
 							<label for="additional_phone">Дополнительный номер</label>
 							<div class="input_check">
-								<input value="" class="full_input _input-val" type="text" name="additional_phone">
+								<input maxlength="10" value="" class="full_input _input-val" type="text" name="additional_phone">
 								<img class="checker" src="">
 							</div>
 						</div>
@@ -71,7 +71,7 @@
 					<div class="container_flex_column">
 						<label for="surname">Фамилия <span>*</span></label>
 						<div class="input_check">
-							<input value="Мингалёв" class="full_input _input-val" type="text" required name="surname">
+							<input maxlength="50" value="Мингалёв" class="full_input _input-val" type="text" required name="surname">
 							<img class="checker" src="accets/checker.svg">
 						</div>
 					</div>
@@ -79,7 +79,7 @@
 					<div class="container_flex_column">
 						<label for="name">Имя <span>*</span></label>
 						<div class="input_check">
-							<input value="Михаил" class="full_input _input-val" type="text" required name="name">
+							<input maxlength="50" value="Михаил" class="full_input _input-val" type="text" required name="name">
 							<img class="checker" src="accets/checker.svg">
 						</div>
 					</div>
@@ -87,7 +87,7 @@
 					<div class="container_flex_column">
 						<label for="patronymic">Отчество</label>
 						<div class="input_check">
-							<input value="Михайлович" class="full_input _input-val" type="text" name="patronymic">
+							<input maxlength="50" value="Михайлович" class="full_input _input-val" type="text" name="patronymic">
 							<img class="checker" src="accets/checker.svg">
 						</div>
 					</div>
@@ -124,7 +124,7 @@
 							</div>
 						</div>
 					</div>
-					<input value="" class="input_birthday _input-val" type="hidden" name="birthday">
+					<input value="01/Январь/2022" class="input_birthday _input-val" type="hidden" name="birthday">
 					<div class="container_flex_column">
 						<label for="sex">Пол</label>
 						<div class="flex_grow">
