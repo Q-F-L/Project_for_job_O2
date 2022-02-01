@@ -120,7 +120,7 @@
 	margin-bottom: 0;
 }
 
-.sait_bar_menu .sait_bar_menu_active_button{
+.sait_bar_menu .sait_bar_menu_active_button {
 	color: #FC6E1D;
 }
 
@@ -140,7 +140,7 @@
 
 /*  FORM  */
 
-form{
+form {
 	margin-top: 12px;
 	width: 420px;
 	padding-top: 20px;
@@ -175,12 +175,12 @@ form{
 
 .nav_element {
 	padding: 13px 15.7px;
-    font-size: 14px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5px;
-    color: #55646D;
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5px;
+	color: #55646D;
 	padding-bottom: 15px;
 }
 
@@ -202,11 +202,11 @@ label {
 	color: #959EA4;
 }
 
-label span{
+label span {
 	color: red;
 }
 
-.container_flex_column{
+.container_flex_column {
 	display: flex;
 	flex-direction: column;
 	margin-bottom: 17px;
@@ -214,44 +214,44 @@ label span{
 
 input {
 	height: 48px;
-    border-radius: 5px;
-    border: 1px solid #DFE2E4;
-    padding-left: 14px;
-    margin-top: 7px;
-    font-size: 14px;
+	border-radius: 5px;
+	border: 1px solid #DFE2E4;
+	padding-left: 14px;
+	margin-top: 7px;
+	font-size: 14px;
 	width: 404px;
 
 }
 
-.input_check{
+.input_check {
 	position: relative;
 }
 
-.checker{
+.checker {
 	position: absolute;
 	top: 27px;
 	right: 18px;
 }
 
-.form_short input{
+.form_short input {
 	width: 189px;
 }
 
-.form_short{
+.form_short {
 	width: 205px;
 }
 
-.container_flex{
+.container_flex {
 	display: flex;
 	justify-content: space-between;
 }
 
-.flex_grow{
- display: flex;
- margin-top: 7px;
+.flex_grow {
+	display: flex;
+	margin-top: 7px;
 }
 
-.select_birthday{
+.select_birthday {
 	border: 1px solid #DFE2E4;
 	border-radius: 5px;
 	margin-right: 10px;
@@ -260,50 +260,35 @@ input {
 	position: relative;
 }
 
-.select_birthday span{
+.select_birthday span {
 	position: absolute;
 	font-family: "Roboto";
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 20px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
 	top: 14px;
 	left: 14px;
 }
 
-.select_birthday img{
+.select_birthday img {
 	position: absolute;
 	right: 18px;
 	top: 20px;
 }
 
-.select_birthday:last-child{
+.select_birthday:last-child {
 	margin-right: 0;
 }
 
-.grow{
+.grow {
 	flex-grow: 1;
 }
 
-.container_sex_active{
-	border: 1px solid #FF7A00;
-	border-radius: 5px;
-	margin-right: 10px;
-	flex-basis: 88px;
-	height: 48px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding-left: 18.15px;
-	padding-right: 22px;
-}
 
-.container_sex_active ._sex{
-	color: #FF7A00;
-	font-weight: 500;
-}
 
-.container_sex{
+.container_sex {
+	cursor: pointer;
 	border: 1px solid #DFE2E4;
 	border-radius: 5px;
 	margin-right: 10px;
@@ -316,7 +301,7 @@ line-height: 20px;
 	padding-right: 22px;
 }
 
-._sex{
+._sex {
 	font-family: "Roboto";
 	font-style: normal;
 	font-weight: 400;
@@ -324,15 +309,34 @@ line-height: 20px;
 	line-height: 20px;
 }
 
-._sex_img{
+._sex_img {
 	width: 14px;
 }
 
-.container_sex:last-child{
+.container_sex_active {
+	cursor: pointer;
+	border: 1px solid #FF7A00;
+	border-radius: 5px;
+	margin-right: 10px;
+	flex-basis: 88px;
+	height: 48px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 18.15px;
+	padding-right: 22px;
+}
+
+.container_sex_active ._sex {
+	color: #FF7A00;
+	font-weight: 500;
+}
+
+.container_sex:last-child {
 	margin-right: 0;
 }
 
-.form_submit_btn{
+.form_submit_btn {
 	margin-top: 13px;
 	color: white;
 	border: none;
@@ -345,4 +349,26 @@ line-height: 20px;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 20px;
+}
+
+
+
+.hiddend {
+	display: none;
+}
+
+.selected {
+	position: absolute;
+	top: 50px;
+	left: 20px;
+	right: 20px;
+	background-color: rgb(179, 175, 175);
+}
+
+.woman_sex_img{
+	display: none;
+}
+
+.error{
+	border-color: red;
 }
