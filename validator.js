@@ -48,5 +48,9 @@ let validate =
 				}
 			});
 		}
+
+		// $('input').text('');
+		// $('input').attr("value", '');
+		$('input').val('');
 	}
 }
